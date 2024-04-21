@@ -35,8 +35,6 @@ class OnboardingPage extends StatelessWidget {
               child: PrimaryButton(
                 text: 'Começar de GRAÇA',
                 onPressed: () {
-                  // Adicione aqui a ação que deseja realizar ao clicar no botão
-                  // Por exemplo, navegar para outra página
                   Navigator.pushNamed(context, '/register');
                 },
                 backgroundColor: Colors.amber,
